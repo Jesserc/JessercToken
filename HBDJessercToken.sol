@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/transmissions11/solmate/blob/main/src/utils/ReentrancyGuard.sol";
 
 contract HappyBirthdayJesserc is ERC20, ReentrancyGuard{
-    //0x8b5968463563520679138A0a1CB3b483969b8b88
+    //Contract Address = 0x8b5968463563520679138A0a1CB3b483969b8b88
     address owner;
     error NotOwner(string);
 
