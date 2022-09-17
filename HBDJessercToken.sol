@@ -1,12 +1,12 @@
-// SPDX-License-Identifier: GPL-3.0
+// SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.16;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/transmissions11/solmate/blob/main/src/utils/ReentrancyGuard.sol";
 
 contract HappyBirthdayJesserc is ERC20, ReentrancyGuard{
-    //Contract Address = 0x8b5968463563520679138A0a1CB3b483969b8b88
+    //Contract Address = 0x8b5968463563520679138A0a1CB3b483969b8b88 on Goerli chain
     address owner;
     error NotOwner(string);
 
